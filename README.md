@@ -20,14 +20,14 @@
 $ npm i modernize.js
 ```
 
-<h3>Using <code>COMMON.JS</code>Create a javascript file <code>(test.js)</code> and copy code below</h3>
+<h3>Using <code>COMMON.JS</code> create a javascript file <code>(test.js)</code> and copy code below</h3>
 
 ```shell
 const modernize = require('modernize.js')
 modernize()
 ```
 
-<h3>Using <code>ES6 IMPORTS</code>Create a javascript file <code>(test.js)</code> and copy code below</h3>
+<h3>Using <code>ES6 IMPORTS</code> create a javascript file <code>(test.js)</code> and copy code below</h3>
 
 ```shell
 import modernize from 'modernize.js'
