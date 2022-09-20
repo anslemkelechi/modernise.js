@@ -35,7 +35,7 @@ modernize()
 ``` 
 
 
-<h3>Thats All, run the javascript file in the terminal for the magic</h3>
+<h3>Thats all, run the javascript file in the terminal for the magic</h3>
 
 ```shell
 $ node test.js 
