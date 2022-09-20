@@ -1,4 +1,4 @@
-<h1 align="center"> Project Title - MODERNIZE.JS </h1>
+<h1 align="center"> MODERNIZE.JS </h1>
 
 <hr/>
 
