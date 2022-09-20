@@ -135,7 +135,6 @@ const modernize = async () => {
                       }/${cur}`,
                       webpackText,
                       (err) => {
-                        console.log(`${cur} created`)
                         if (err) console.log(err)
                       },
                     )
@@ -146,7 +145,6 @@ const modernize = async () => {
                       }/${cur}`,
                       babelText,
                       (err) => {
-                        console.log(`${cur} created`)
                         if (err) console.log(err)
                       },
                     )
@@ -157,7 +155,6 @@ const modernize = async () => {
                       }/${cur}`,
                       ' ',
                       (err) => {
-                        console.log(`${cur} created`)
                         if (err) console.log(err)
                       },
                     )
@@ -187,6 +184,7 @@ const modernize = async () => {
       },
     )
   })
+  console.log('Author Of this package is open for fullstack engineering roles, frontend engineering roles, backend engineering roles. Reach Out Via Github: https::/github.com/anslemkelechi');
 }
 
-modules.export = modernize()
+module.export = modernize()
