@@ -17,15 +17,23 @@
 <h4>You need Node.js & NPM installed before making us of this package, easily do so here <a href="https://nodejs.org/en/">Install Here</a></h4>
 
 ```shell
-$ npm i create-sass-app
+$ npm i modernize.js
 ```
 
-<h3>Create a javascript file <code>(test.js)</code> and copy code below</h3>
+<h3>Using <code>COMMON.JS</code>Create a javascript file <code>(test.js)</code> and copy code below</h3>
 
 ```shell
-const createSass = require('create-sass-app')
-createSass()
+const modernize = require('modernize.js')
+modernize()
 ```
+
+<h3>Using <code>ES6 IMPORTS</code>Create a javascript file <code>(test.js)</code> and copy code below</h3>
+
+```shell
+import modernize from 'modernize.js'
+modernize()
+``` 
+
 
 <h3>Thats All, run the javascript file in the terminal for the magic</h3>
 
