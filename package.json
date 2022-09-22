@@ -1,6 +1,6 @@
 {
-  "name": "modernize",
-  "version": "1.0.0",
+  "name": "modernize.js",
+  "version": "1.1.0",
   "description": "An NPM package to help you get started with modern javascript tooling easier & faster",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,9 @@
     "url": "https://github.com/anslemkelechi/modernise.js/issues"
   },
   "homepage": "https://github.com/anslemkelechi/modernise.js#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
     "@babel/core": "^7.19.1",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.19.1",
@@ -33,8 +35,5 @@
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1"
-  },
-  "dependencies": {
-    "html-webpack-plugin": "^5.5.0"
   }
 }

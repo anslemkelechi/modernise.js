@@ -187,4 +187,4 @@ const modernize = async () => {
   console.log('Author Of this package is open for fullstack engineering roles, frontend engineering roles, backend engineering roles. Reach Out Via Github: https::/github.com/anslemkelechi');
 }
 
-module.export = modernize()
+module.export = modernize
