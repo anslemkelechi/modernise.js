@@ -42,7 +42,7 @@ $ node test.js
 <h3>run the javascript file in the terminal for the magic</h3>
 
 ```code
- "dev": "webpack --mode development",
+    "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open"
 ```
