@@ -1,6 +1,6 @@
 {
   "name": "modernize.js",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "An NPM package to help you get started with modern javascript tooling easier & faster",
   "main": "index.js",
   "scripts": {

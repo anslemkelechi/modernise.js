@@ -32,15 +32,13 @@ modernize()
 ```shell
 import modernize from 'modernize.js'
 modernize()
-``` 
-
+```
 
 <h3>Thats all, run the javascript file in the terminal for the magic</h3>
 
 ```shell
-$ node test.js 
+$ node test.js
 ```
-
 
 <h3>Contributing</h3>
 Contribution is highly welcomed
@@ -57,4 +55,3 @@ Contribution is highly welcomed
 <h3>License</h3>
 
 This project is licensed under the MIT License
-
