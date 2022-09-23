@@ -34,10 +34,17 @@ import modernize from 'modernize.js'
 modernize()
 ```
 
-<h3>Thats all, run the javascript file in the terminal for the magic</h3>
+<h3>run the javascript file in the terminal for the magic</h3>
 
 ```shell
 $ node test.js
+```
+<h3>run the javascript file in the terminal for the magic</h3>
+
+```code
+ "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
 ```
 
 <h3>Contributing</h3>

@@ -60,6 +60,8 @@ module.exports = {
   },
   devServer: {
     static: './dist',
+    hot: true,
+    watchFiles: ['./src/index.html'],
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -184,8 +186,9 @@ const modernize = async () => {
       },
     )
   })
-  console.log('Author Of this package is open for fullstack engineering roles, frontend engineering roles, backend engineering roles. Reach Out Via Github: https::/github.com/anslemkelechi');
+  console.log(
+    'Author Of this package is open for fullstack engineering roles, frontend engineering roles, backend engineering roles. Reach Out Via Github: https::/github.com/anslemkelechi',
+  )
 }
 
 module.exports = modernize
-
